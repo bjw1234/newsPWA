@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>news-item</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="manifest" href="./manifest.json">
+</head>
+<body>
+	<!-- header区域 -->
+	<header id="article-header">
+		<div class="article-header-img-wrapper">
+			<p class="background"></p>
+		</div>		
+		<div class="back"></div>		
+	</header>
+	<!-- 内容区域 -->
+	<div id="article">
+		<hr>
+	</div>
+
+
+<script type="text/javascript" src="./js/article.js"></script>
+<script type="text/javascript">
+	if('serviceWorker' in navigator){
+		navigator.serviceWorker.register('./news_sw.js').then(reg => {			
+			console.log('ServiceWorker registration successful with scope:' + reg.scope);
+		}).catch(err => {
+			console.log('ServiceWorker registration fail:',err);	
+		});
+	}
+</script>
+</body>
+</html>
+

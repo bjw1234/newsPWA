@@ -1,0 +1,14 @@
+{
+  "name": "newspwa",
+  "version": "1.0.0",
+  "description": "使用PWA技术，创建一个新闻APP。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bjw",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}

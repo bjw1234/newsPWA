@@ -1,19 +1,19 @@
 const VERSION = 'news-1.0.0';
 const fileList = [
-	'/css/reset.css',
-	'css/main.css',
-	'/images/news.png',
-	'/images/back.png',
-	'/images/0.jpg',
-	'/images/1.jpg',
-	'/images/2.jpg',
-	'/images/3.jpg',
-	'/images/4.jpg',
+	'./css/reset.css',
+	'./css/main.css',
+	'./images/news.png',
+	'./images/back.png',
+	'./images/0.jpg',
+	'./images/1.jpg',
+	'./images/2.jpg',
+	'./images/3.jpg',
+	'./images/4.jpg',
 	'./images/news-144.png',
-	'/data/latest.json',
-	'/article.html',
-	'/js/main.js',
-	'/js/article.js'
+	'./data/latest.json',
+	'./article.html',
+	'./js/main.js',
+	'./js/article.js'
 ];
 
 // 安装事件

@@ -1,4 +1,4 @@
-const url = '/data/latest.json';
+const url = './data/latest.json';
 
 const main = document.getElementById('main');
 

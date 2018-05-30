@@ -29,7 +29,7 @@ self.addEventListener('install',event => {
 
 // 缓存更新
 self.addEventListener('activate', event => {
-	// self.clients.claim();
+	// self.clients.claim();  
 	event.waitUntil(
 		caches.keys().then(cacheNames => {
 			return Promise.all(

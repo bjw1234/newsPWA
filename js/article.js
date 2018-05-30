@@ -50,7 +50,7 @@ let param = queryParameter(document.location.href);
 if(param){
 	let id = param.id || 0;
 	console.log(id);
-	let url = `/data/news${id}.json`;
+	let url = `./data/news${id}.json`;
 	requestData(url);
 }
 

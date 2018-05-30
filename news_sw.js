@@ -1,4 +1,4 @@
-const VERSION = 'news-1.0.0';
+const VERSION = 'news-1.0.1';
 const fileList = [
 	'./css/reset.css',
 	'./css/main.css',

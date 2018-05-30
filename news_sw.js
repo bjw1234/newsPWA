@@ -1,4 +1,4 @@
-const VERSION = 'news-1.0.4';
+const VERSION = 'news-1.0.5';
 const fileList = [
 	'./css/reset.css',
 	'./css/main.css',
@@ -18,7 +18,7 @@ const fileList = [
 
 // 安装事件
 self.addEventListener('install',event => {
-	console.log('sw is installing');
+	console.log('sw is installing...');
 	event.waitUntil(self.skipWaiting());
 	event.waitUntil(
 		caches.open(VERSION).then(cache =>{

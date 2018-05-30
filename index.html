@@ -29,7 +29,7 @@
 <script type="text/javascript" src="./js/main.js"></script>
 <script type="text/javascript">
 	if('serviceWorker' in navigator){
-		navigator.serviceWorker.register('/newsPWA/news_sw.js').then(reg => {			
+		navigator.serviceWorker.register('./news_sw.js').then(reg => {			
 			console.log('ServiceWorker registration successful with scope:' + reg.scope);
 		}).catch(err => {
 			console.log('ServiceWorker registration fail:',err);	

@@ -19,7 +19,7 @@ const fileList = [
 // 安装事件
 self.addEventListener('install',event => {
 	console.log('sw is installing');
-	 event.waitUntil(self.skipWaiting());
+	event.waitUntil(self.skipWaiting());
 	event.waitUntil(
 		caches.open(VERSION).then(cache =>{
 			return cache.addAll(fileList);
@@ -29,7 +29,7 @@ self.addEventListener('install',event => {
 
 // 缓存更新
 self.addEventListener('activate', event => {
-	self.clients.claim();
+	// self.clients.claim();
 	event.waitUntil(
 		caches.keys().then(cacheNames => {
 			return Promise.all(

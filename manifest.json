@@ -10,6 +10,11 @@
       "src": "./images/news-144.png",
       "sizes": "144X144",
       "type": "image/png"
+    },
+    {
+      "src": "./images/news-192.png",
+      "sizes": "192X192",
+      "type": "image/png"
     }
   ]
 }
